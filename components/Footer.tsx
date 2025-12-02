@@ -1,6 +1,6 @@
 import React from 'react';
-import { Rocket, Facebook, Instagram, Twitter } from 'lucide-react';
-import { NAV_ITEMS } from '../constants';
+import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { NAV_ITEMS, IMAGES } from '../constants';
 
 const Footer: React.FC = () => {
   return (
@@ -10,8 +10,12 @@ const Footer: React.FC = () => {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <Rocket className="h-8 w-8 text-secondary" />
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src={IMAGES.LOGO} 
+                alt="Galaxy Logo" 
+                className="h-10 w-10 rounded-full object-cover border-2 border-gray-700" 
+              />
               <span className="font-serif text-2xl font-bold text-white">
                 Galaxy
               </span>

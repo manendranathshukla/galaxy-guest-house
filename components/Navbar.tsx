@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Rocket } from 'lucide-react';
-import { NAV_ITEMS } from '../constants';
+import { Menu, X } from 'lucide-react';
+import { NAV_ITEMS, IMAGES } from '../constants';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,8 +21,12 @@ const Navbar: React.FC = () => {
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#home" className="flex items-center space-x-2">
-              <Rocket className={`h-8 w-8 ${isScrolled ? 'text-accent' : 'text-white'}`} />
+            <a href="#home" className="flex items-center space-x-3">
+              <img 
+                src={IMAGES.LOGO} 
+                alt="Galaxy Logo" 
+                className="h-10 w-10 rounded-full object-cover border-2 border-white/20 shadow-sm" 
+              />
               <span className={`font-serif text-2xl font-bold ${isScrolled ? 'text-white' : 'text-white'}`}>
                 Galaxy
               </span>

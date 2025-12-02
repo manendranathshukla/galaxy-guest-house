@@ -5,17 +5,18 @@ import { Room, Amenity, Testimonial, NavItem } from './types';
 // REPLACE THESE IMAGE URLS WITH YOUR OWN
 // ==========================================
 export const IMAGES = {
-  HERO_BG: "https://picsum.photos/1920/1080?random=1",
-  ABOUT_SECTION: "https://picsum.photos/800/600?random=2",
-  ROOM_DELUXE: "https://picsum.photos/800/600?random=3",
-  ROOM_SUITE: "https://picsum.photos/800/600?random=4",
-  ROOM_FAMILY: "https://picsum.photos/800/600?random=5",
-  GALLERY_1: "https://picsum.photos/600/800?random=6",
-  GALLERY_2: "https://picsum.photos/800/600?random=7",
-  GALLERY_3: "https://picsum.photos/600/600?random=8",
-  GALLERY_4: "https://picsum.photos/800/800?random=9",
-  GALLERY_5: "https://picsum.photos/600/900?random=10",
-  GALLERY_6: "https://picsum.photos/800/600?random=11",
+  HERO_BG: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/ca454b04_z.jpg",
+  ABOUT_SECTION: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/641415e8_z.jpg",
+  ROOM_DELUXE: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/50efc4d9_z.jpg",
+  ROOM_SUITE: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/a3928a9c_z.jpg",
+  ROOM_FAMILY: "https://q-xx.bstatic.com/xdata/images/hotel/max500/147782017.jpg?k=e320e1ad9405877b0022861ab61d4768ef37b911dbf6fadfad26d9d5207be941&o=",
+  GALLERY_1: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/e00e835c_z.jpg",
+  GALLERY_2: "https://q-xx.bstatic.com/xdata/images/hotel/max500/582756496.jpg?k=4178fe4b6e5c79f22199ce3ac4899b877cad1c2a5d552b1b4f33a4c04016da99&o=&s=312x",
+  GALLERY_3: "https://i.travelapi.com/lodging/37000000/36560000/36553800/36553729/d5694569_z.jpg",
+  GALLERY_4: "https://q-xx.bstatic.com/xdata/images/hotel/max500/582751188.jpg?k=d9ee3ebd9a56e4d1f9a000f75cda74cfad1658be170218381ef8f7e4cb5af713&o=&s=312x",
+  GALLERY_5: "https://q-xx.bstatic.com/xdata/images/hotel/max500/582747546.jpg?k=f598c68beaa45eead618dc9c49860070e982cce73f72f45141b72ad35ffc15d4&o=&s=312x",
+  GALLERY_6: "https://q-xx.bstatic.com/xdata/images/hotel/max500/582747445.jpg?k=d3f9ed0d08c7e5075653895594cac759a0e42d87545261355033b97c70307004&o=&s=312x",
+  LOGO: "https://q-xx.bstatic.com/xdata/images/hotel/max500/138337306.jpg?k=f430af9d7dd9b99ff8beb8f9f8819770a3ac5cd405deea4d847afaa2a399a386&o=&s=312x",
 };
 
 export const NAV_ITEMS: NavItem[] = [
